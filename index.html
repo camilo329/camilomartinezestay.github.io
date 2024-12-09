@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículum de Camilo Martínez Estay</title>
+    <!-- Importar Bulma CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
             background-color: #f4f4f4;
             color: #333;
         }
@@ -18,105 +17,113 @@
             padding: 20px 10px;
             text-align: center;
         }
-        section {
-            max-width: 800px;
+        h2 {
+            color: #379683;
+            border-bottom: 2px solid #379683;
+            padding-bottom: 5px;
+        }
+        .section-content {
+            max-width: 900px;
             margin: 20px auto;
             background: white;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #007BFF;
-            border-bottom: 2px solid #007BFF;
-            padding-bottom: 5px;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            margin: 10px 0;
-        }
-        .contact-info {
-            display: flex;
-            justify-content: space-between;
-        }
-        .contact-info div {
-            flex: 1;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
         footer {
             text-align: center;
-            padding: 10px;
+            padding: 15px;
             background: #007BFF;
             color: white;
+        }
+        a {
+            color: #379683;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Camilo Martínez Estay</h1>
-        <p>Quilpué, Valparaíso, Chile | <a href="mailto:camilo.martinez1899@gmail.com" style="color: #ffdd57;">camilo.martinez1899@gmail.com</a></p>
+        <h1 class="title">Camilo Martínez Estay</h1>
+        <p>Quilpué, Valparaíso, Chile | <a href="mailto:camilo.martinez1899@gmail.com">camilo.martinez1899@gmail.com</a></p>
     </header>
-<section>
-    <h2>Sobre mí</h2>
-    <p>Actualmente estoy finalizando mi Licenciatura en Matemáticas en la Pontificia Universidad Católica de Valparaíso. El próximo año planeo ingresar al Magíster en Matemáticas en la Universidad de Valparaíso, donde impartiré la cátedra del curso "Taller de Pensamiento Lógico Matemático" de la Licenciatura en Matemáticas. Además, me interesa participar en proyectos de investigación y en la creación de material educativo en el área, contribuyendo a facilitar el aprendizaje de las matemáticas.</p>
-</section>
 
-    <section>
-        <h2>Datos Personales</h2>
-        <ul>
-            <li><strong>Nacionalidad:</strong> Chileno</li>
-            <li><strong>Fecha de Nacimiento:</strong> 18 de Septiembre, 1999</li>
-        </ul>
-    </section>
+    <div class="section-content">
+        <section>
+            <h2 class="subtitle">Sobre mí</h2>
+            <p>Actualmente estoy finalizando mi Licenciatura en Matemáticas en la Pontificia Universidad Católica de Valparaíso. El próximo año planeo ingresar al Magíster en Matemáticas en la Universidad de Valparaíso, donde impartiré la cátedra del curso "Taller de Pensamiento Lógico Matemático" de la Licenciatura en Matemáticas. Además, me interesa participar en proyectos de investigación y en la creación de material educativo en el área, contribuyendo a facilitar el aprendizaje de las matemáticas.</p>
+        </section>
 
-    <section>
-        <h2>Educación</h2>
-        <ul>
-            <li><strong>Licenciatura en Matemáticas:</strong> Pontificia Universidad Católica de Valparaíso (2019 - Actualidad)</li>
-            <li><strong>Ingeniería Civil Matemática:</strong> Universidad Técnica Federico Santa María (2018 - 2019, incompleta)</li>
-            <li><strong>Educación Media:</strong> Colegio Aconcagua, Quilpué (2014 - 2017)</li>
-        </ul>
-    </section>
+        <section>
+            <h2 class="subtitle">Datos Personales</h2>
+            <div class="columns">
+                <div class="column">
+                    <ul>
+                        <li><strong>Nacionalidad:</strong> Chileno</li>
+                        <li><strong>Fecha de Nacimiento:</strong> 18 de Septiembre, 1999</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li><strong>Correo Electrónico:</strong> <a href="mailto:camilo.martinez1899@gmail.com">camilo.martinez1899@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-    <section>
-    <h2>Experiencia en Ayudantías y Tutorías</h2>
-    <h3>Ayudantías de Cátedra</h3>
-    <ul>
-        <li><strong>Álgebra:</strong> PUCV, Valparaíso, Chile (Mar - Abr 2021)</li>
-        <li><strong>Cálculo 1, Geometría 1 y Álgebra:</strong> PUCV, Valparaíso, Chile (Mar - Jul 2020)</li>
-        <li><strong>Fundamentos de la Matemática:</strong> PUCV, Valparaíso, Chile (Jul 2019 - Ene 2020)</li>
-    </ul>
-    <h3>Tutorías y Programas Académicos</h3>
-    <ul>
-        <li><strong>Tutor PMI (Inclusiva Matemática):</strong> Programa de inclusión, PUCV, Valparaíso, Chile (Mar - Jul 2022)</li>
-        <li><strong>Tutor PAE:</strong> Plan de implementación para el fortalecimiento de la formación inicial docente, PUCV, Valparaíso, Chile (Mar - Jul 2022)</li>
-        <li><strong>Tutor de Matemática Particular:</strong> Apoyo académico para estudiantes de educación básica, media y universitaria, modalidad presencial y online (2017 - Actualidad)</li>
-    </ul>
-</section>
+        <section>
+            <h2 class="subtitle">Educación</h2>
+            <ul>
+                <li><strong>Licenciatura en Matemáticas:</strong> Pontificia Universidad Católica de Valparaíso (2019 - Actualidad)</li>
+                <li><strong>Ingeniería Civil Matemática:</strong> Universidad Técnica Federico Santa María (2018 - 2019, incompleta)</li>
+                <li><strong>Educación Media:</strong> Colegio Aconcagua, Quilpué (2014 - 2017)</li>
+            </ul>
+        </section>
 
-    
-    <section>
-        <h2>Experiencia Laboral</h2>
-        <ul>
-            <li><strong>Diseñador de guías:</strong> EDUGAMI SA (Ago 2023 - Ene 2024)</li>
-            <li><strong>Desarrollador de explicaciones:</strong> PAES M1 Invierno Matemática, EDUGAMI SA (Jul 2023)</li>
-            <li><strong>Diseño de ítems PAES Matemática:</strong> EDUGAMI SA (Feb - May 2023)</li>
-        </ul>
-    </section>
+        <section>
+            <h2 class="subtitle">Experiencia en Ayudantías y Tutorías</h2>
+            <div class="columns">
+                <div class="column">
+                    <h3 class="subtitle is-6">Ayudantías de Cátedra</h3>
+                    <ul>
+                        <li><strong>Álgebra:</strong> PUCV, Valparaíso, Chile (Mar - Abr 2021)</li>
+                        <li><strong>Cálculo 1, Geometría 1 y Álgebra:</strong> PUCV, Valparaíso, Chile (Mar - Jul 2020)</li>
+                        <li><strong>Fundamentos de la Matemática:</strong> PUCV, Valparaíso, Chile (Jul 2019 - Ene 2020)</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3 class="subtitle is-6">Tutorías y Programas Académicos</h3>
+                    <ul>
+                        <li><strong>Tutor PMI (Inclusiva Matemática):</strong> Programa de inclusión, PUCV (Mar - Jul 2022)</li>
+                        <li><strong>Tutor PAE:</strong> Plan de implementación para el fortalecimiento de la formación inicial docente (Mar - Jul 2022)</li>
+                        <li><strong>Tutor de Matemática Particular:</strong> Modalidad presencial y online (2017 - Actualidad)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-    <section>
-        <h2>Habilidades Técnicas</h2>
-        <ul>
-            <li><strong>Lenguajes de programación:</strong> Python, Matlab</li>
-            <li><strong>Software especializado:</strong> LaTeX</li>
-            <li><strong>Idiomas:</strong> Español (nativo), Inglés (intermedio)</li>
-        </ul>
-    </section>
+        <section>
+            <h2 class="subtitle">Experiencia Laboral</h2>
+            <ul>
+                <li><strong>Diseñador de guías:</strong> EDUGAMI SA (Ago 2023 - Ene 2024)</li>
+                <li><strong>Desarrollador de explicaciones:</strong> PAES M1 Invierno Matemática, EDUGAMI SA (Jul 2023)</li>
+                <li><strong>Diseño de ítems PAES Matemática:</strong> EDUGAMI SA (Feb - May 2023)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="subtitle">Habilidades Técnicas</h2>
+            <ul>
+                <li><strong>Lenguajes de programación:</strong> Python, Matlab</li>
+                <li><strong>Software especializado:</strong> LaTeX</li>
+                <li><strong>Idiomas:</strong> Español (nativo), Inglés (intermedio)</li>
+            </ul>
+        </section>
+    </div>
 
     <footer>
         <p>© 2024 | Camilo Ignacio Martínez Estay | Todos los derechos reservados</p>
     </footer>
 </body>
 </html>
+
